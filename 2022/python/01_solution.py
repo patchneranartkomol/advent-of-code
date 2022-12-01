@@ -1,4 +1,4 @@
-from collections import Counter
+import heapq
 
 if __name__ == '__main__':
     # Part 1
@@ -11,25 +11,24 @@ if __name__ == '__main__':
                 curr_cals = 0
             else:
                 curr_cals += int(line)
+        # Process last elf
         max_cals = max(curr_cals, max_cals)
-    print(f'Part 1, top cals carried by single elf: {max_cals}')
+
+    print(f'Part 1, top cals carried by any single elf: {max_cals}')
 
     # Part 2
-    cal_counts = Counter()
-    elf_count = total = 0
     curr_cals = 0
+    min_heap = [-1] * 3  # Store top 3 counts in min heap
 
     with open('../input/01_input.txt', 'r', encoding='utf-8') as f:
         for line in f:
             if line == '\n':
-                cal_counts[elf_count] = curr_cals
+                if curr_cals > min_heap[0]:
+                    heapq.heappushpop(min_heap, curr_cals)
                 curr_cals = 0
-                elf_count += 1
             else:
                 curr_cals += int(line)
-        cal_counts[elf_count] = curr_cals
+        if curr_cals > min_heap[0]:
+            heapq.heappushpop(min_heap, curr_cals)
 
-    for _, cals in cal_counts.most_common(3):
-        total += cals
-
-    print(f'Part 2, total cals for top 3 elves: {total}')
+    print(f'Part 2, total cals for top 3 elves: {sum(min_heap)}')
