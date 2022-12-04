@@ -11,7 +11,7 @@ Starting out with Python for initial implementation, and add other languages I'm
 |[01](https://adventofcode.com/2022/day/1)|Calorie Counting|⭐ ⭐|
 |[02](https://adventofcode.com/2022/day/2)|Rock Paper Scissors|⭐ ⭐|
 |[03](https://adventofcode.com/2022/day/3)|Rucksack Reorganization|⭐ ⭐|
-|[04](https://adventofcode.com/2022/day/4)|||
+|[04](https://adventofcode.com/2022/day/4)|Camp Cleanup|⭐ ⭐|
 |[05](https://adventofcode.com/2022/day/5)|||
 |[06](https://adventofcode.com/2022/day/6)|||
 |[07](https://adventofcode.com/2022/day/7)|||
