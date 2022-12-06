@@ -13,7 +13,7 @@ Starting out with Python for initial implementation, and add other languages I'm
 |[03](https://adventofcode.com/2022/day/3)|Rucksack Reorganization|⭐ ⭐|
 |[04](https://adventofcode.com/2022/day/4)|Camp Cleanup|⭐ ⭐|
 |[05](https://adventofcode.com/2022/day/5)|Supply Stacks|⭐ ⭐|
-|[06](https://adventofcode.com/2022/day/6)|||
+|[06](https://adventofcode.com/2022/day/6)|Tuning Trouble|⭐ ⭐|
 |[07](https://adventofcode.com/2022/day/7)|||
 |[08](https://adventofcode.com/2022/day/8)|||
 |[09](https://adventofcode.com/2022/day/9)|||
