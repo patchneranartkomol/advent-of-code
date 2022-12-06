@@ -1,15 +1,10 @@
 def fully_contains(a_start: int, a_end: int, b_start: int, b_end: int) -> bool:
-    if a_start >= b_start and a_end <= b_end:
-        return True
-    elif b_start >= a_start and b_end <= a_end:
-        return True
-    return False
+    return (a_start >= b_start and a_end <= b_end) \
+            or b_start >= a_start and b_end <= a_end
 
 
 def overlaps(a_start: int, a_end: int, b_start: int, b_end: int) -> bool:
-    if a_end < b_start or b_end < a_start:
-        return False
-    return True
+    return a_end < b_start or b_end < a_start
 
 
 if __name__ == '__main__':

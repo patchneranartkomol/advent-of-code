@@ -1,4 +1,7 @@
-def load_stacks_from_input(stacks, lines):
+from typing import List
+
+
+def load_stacks_from_input(stacks: List[List[str]], lines: List[str]) -> None:
     for i in range(7, -1, -1):
         for j in range(1, len(lines[i]), 4):
             idx = j // 4 + 1
