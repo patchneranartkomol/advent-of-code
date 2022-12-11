@@ -16,7 +16,7 @@ Starting out with Python for initial implementation, and add other languages I'm
 |[06](https://adventofcode.com/2022/day/6)|Tuning Trouble|⭐ ⭐|
 |[07](https://adventofcode.com/2022/day/7)|No Space Left On Device|⭐ ⭐|
 |[08](https://adventofcode.com/2022/day/8)|Treetop Tree Houes|⭐ ⭐|
-|[09](https://adventofcode.com/2022/day/9)|||
+|[09](https://adventofcode.com/2022/day/9)|Rope Bridge|⭐ ⭐|
 |[10](https://adventofcode.com/2022/day/10)|||
 |[11](https://adventofcode.com/2022/day/11)|||
 |[12](https://adventofcode.com/2022/day/12)|||
