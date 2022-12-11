@@ -54,9 +54,7 @@ if __name__ == '__main__':
 
     print(f'Part 1: Tail visited {len(visited)} positions.')
 
-    rope = []
-    for _ in range(10):
-        rope.append(Point(0, 0))
+    rope = [Point(0,0) for _ in range(10)]
     visited = set()
 
     instructions = 0
