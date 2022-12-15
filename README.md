@@ -20,7 +20,7 @@ Starting out with Python for initial implementation, and add other languages I'm
 |[10](https://adventofcode.com/2022/day/10)|Cathode-Ray Tube|⭐ ⭐|
 |[11](https://adventofcode.com/2022/day/11)|Monkey in the Middle|⭐ ⭐|
 |[12](https://adventofcode.com/2022/day/12)|Hill Climbing Algorithm|⭐ ⭐|
-|[13](https://adventofcode.com/2022/day/13)|||
+|[13](https://adventofcode.com/2022/day/13)|Distress Signal|⭐ ⭐|
 |[14](https://adventofcode.com/2022/day/14)|||
 |[15](https://adventofcode.com/2022/day/15)|||
 |[16](https://adventofcode.com/2022/day/16)|||
