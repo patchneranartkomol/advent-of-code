@@ -4,11 +4,11 @@ My solutions for Advent of Code.
 
 ## 2023
 
-Let's mess around with Lua.
+Let's mess around with Lua. Not sure how long that will last.
 
 |Day|Name|Status|
 |---|---|---|
-|[01](https://adventofcode.com/2023/day/1)|Trebuchet?!||
+|[01](https://adventofcode.com/2023/day/1)|Trebuchet?!|⭐ ⭐|
 
 ## 2022
 
