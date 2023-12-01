@@ -2,6 +2,14 @@
 
 My solutions for Advent of Code.
 
+## 2023
+
+Let's mess around with Lua.
+
+|Day|Name|Status|
+|---|---|---|
+|[01](https://adventofcode.com/2023/day/1)|Trebuchet?!||
+
 ## 2022
 
 Starting out with Python for initial implementation, and add other languages I'm learning as time permits.
@@ -15,7 +23,7 @@ Starting out with Python for initial implementation, and add other languages I'm
 |[05](https://adventofcode.com/2022/day/5)|Supply Stacks|⭐ ⭐|
 |[06](https://adventofcode.com/2022/day/6)|Tuning Trouble|⭐ ⭐|
 |[07](https://adventofcode.com/2022/day/7)|No Space Left On Device|⭐ ⭐|
-|[08](https://adventofcode.com/2022/day/8)|Treetop Tree Houes|⭐ ⭐|
+|[08](https://adventofcode.com/2022/day/8)|Treetop Tree House|⭐ ⭐|
 |[09](https://adventofcode.com/2022/day/9)|Rope Bridge|⭐ ⭐|
 |[10](https://adventofcode.com/2022/day/10)|Cathode-Ray Tube|⭐ ⭐|
 |[11](https://adventofcode.com/2022/day/11)|Monkey in the Middle|⭐ ⭐|
