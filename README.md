@@ -9,6 +9,7 @@ Let's mess around with Lua. Not sure how long that will last.
 |Day|Name|Status|
 |---|---|---|
 |[01](https://adventofcode.com/2023/day/1)|Trebuchet?!|⭐ ⭐|
+|[01](https://adventofcode.com/2023/day/2)|Cube Conundrum|⭐ ⭐|
 
 ## 2022
 
