@@ -11,6 +11,7 @@ Let's mess around with Lua. Not sure how long that will last.
 |[01](https://adventofcode.com/2023/day/1)|Trebuchet?!|⭐ ⭐|
 |[02](https://adventofcode.com/2023/day/2)|Cube Conundrum|⭐ ⭐|
 |[03](https://adventofcode.com/2023/day/3)|Gear Ratios|⭐ ⭐|
+|[04](https://adventofcode.com/2023/day/4)|Scratchcards|⭐ ⭐|
 
 ## 2022
 
