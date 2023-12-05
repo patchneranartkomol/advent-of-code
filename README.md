@@ -4,7 +4,7 @@ My solutions for Advent of Code.
 
 ## 2023
 
-Let's mess around with Lua. Not sure how long that will last.
+Solutions in Lua, Python, and ...?
 
 |Day|Name|Status|
 |---|---|---|
@@ -12,6 +12,7 @@ Let's mess around with Lua. Not sure how long that will last.
 |[02](https://adventofcode.com/2023/day/2)|Cube Conundrum|⭐ ⭐|
 |[03](https://adventofcode.com/2023/day/3)|Gear Ratios|⭐ ⭐|
 |[04](https://adventofcode.com/2023/day/4)|Scratchcards|⭐ ⭐|
+|[05](https://adventofcode.com/2023/day/5)|If You Give A Seed A Fertilizer|⭐ ⭐|
 
 ## 2022
 
