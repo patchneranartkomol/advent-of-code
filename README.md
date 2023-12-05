@@ -13,6 +13,7 @@ Solutions in Lua, Python, and ...?
 |[03](https://adventofcode.com/2023/day/3)|Gear Ratios|⭐ ⭐|
 |[04](https://adventofcode.com/2023/day/4)|Scratchcards|⭐ ⭐|
 |[05](https://adventofcode.com/2023/day/5)|If You Give A Seed A Fertilizer|⭐ ⭐|
+|[06](https://adventofcode.com/2023/day/6)|Wait For It|⭐ ⭐|
 
 ## 2022
 
