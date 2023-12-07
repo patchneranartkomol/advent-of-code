@@ -14,6 +14,7 @@ Solutions in Lua, Python, and ...?
 |[04](https://adventofcode.com/2023/day/4)|Scratchcards|⭐ ⭐|
 |[05](https://adventofcode.com/2023/day/5)|If You Give A Seed A Fertilizer|⭐ ⭐|
 |[06](https://adventofcode.com/2023/day/6)|Wait For It|⭐ ⭐|
+|[07](https://adventofcode.com/2023/day/7)|Camel Cards|⭐ ⭐|
 
 ## 2022
 
