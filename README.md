@@ -17,6 +17,7 @@ Solutions in Lua, Python, and ...?
 |[07](https://adventofcode.com/2023/day/7)|Camel Cards|⭐ ⭐|
 |[08](https://adventofcode.com/2023/day/8)|Haunted Wasteland|⭐ ⭐|
 |[09](https://adventofcode.com/2023/day/9)|Mirage Maintenance|⭐ ⭐|
+|[10](https://adventofcode.com/2023/day/10)|Pipe Maze|⭐ |
 
 ## 2022
 
