@@ -18,6 +18,7 @@ Solutions in Lua, Python, and ...?
 |[08](https://adventofcode.com/2023/day/8)|Haunted Wasteland|⭐ ⭐|
 |[09](https://adventofcode.com/2023/day/9)|Mirage Maintenance|⭐ ⭐|
 |[10](https://adventofcode.com/2023/day/10)|Pipe Maze|⭐ ⭐|
+|[11](https://adventofcode.com/2023/day/11)|Cosmic Expansion|⭐ ⭐|
 
 ## 2022
 
