@@ -1,5 +1,4 @@
-FILENAME = 'test_input5.txt'
-
+FILENAME = 'input.txt'
 DIRECTIONS = {
     (-1, 0): 'N',
     (1, 0): 'S',
@@ -39,9 +38,27 @@ def start_neighbors(maze, start):
     return neighbors
 
 
-def part_two(maze):
+def in_polygon(y, x, loop):
+    """
+    Ray Casting Algorithm
+    https://en.wikipedia.org/wiki/Point_in_polygon#Ray_casting_algorithm
+    """
+    count = 0
+    for i in range(x):
+        # My puzzle input had S as a '|' piece
+        # 'S' should be excluded if it does not block horizontal rays
+        if (y, i) in loop and maze[y][i] in {"F", "7", "|", "S"}:
+            count += 1
+    return count % 2 == 1
+
+
+def part_two(maze, loop):
     n = len(maze)
     count = 0
+    for i in range(n):
+        for j in range(n):
+            if (i, j) not in loop and in_polygon(i, j, loop):
+                count += 1
     return count
 
 
@@ -54,7 +71,10 @@ def part_one(maze, start):
     prev_i, prev_j = start
     i, j = neighbors[0]
     # Track tiles that are part of the main pipe loop
+    loop = set()
+    loop.add((prev_i, prev_j))
     while (i, j) != start:
+        loop.add((i, j))
         steps += 1
         came_from = DIRECTIONS[prev_i - i, prev_j - j]
         prev_i, prev_j = i, j
@@ -91,14 +111,14 @@ def part_one(maze, start):
                     i += 1
             case _:
                 raise RuntimeError("Unexpected Maze Tile", maze[i][j])
-
-    return steps // 2
+    return steps // 2, loop
 
 
 maze = []
 with open(FILENAME) as file:
     for line in file:
-        maze.append(line.strip())
+        maze.append([ch for ch in line.strip()])
 start = find_start(maze)
-print(f'Part 1: steps to farthest point: {part_one(maze, start)}')
-print(f'Part 2: tiles enclosed by loop {part_two(maze)}')
+count, loop = part_one(maze, start)
+print(f'Part 1: steps to farthest point: {count}')
+print(f'Part 2: tiles enclosed by loop {part_two(maze, loop)}')
