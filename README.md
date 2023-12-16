@@ -20,6 +20,7 @@ Solutions in Lua, Python, and ...?
 |[10](https://adventofcode.com/2023/day/10)|Pipe Maze|⭐ ⭐|
 |[11](https://adventofcode.com/2023/day/11)|Cosmic Expansion|⭐ ⭐|
 |[12](https://adventofcode.com/2023/day/12)|Hot Springs|⭐ ⭐|
+|[13](https://adventofcode.com/2023/day/13)|Point of Incidence|⭐ ⭐|
 
 ## 2022
 
