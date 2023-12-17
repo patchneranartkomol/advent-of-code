@@ -21,6 +21,7 @@ Solutions in Lua, Python, and ...?
 |[11](https://adventofcode.com/2023/day/11)|Cosmic Expansion|⭐ ⭐|
 |[12](https://adventofcode.com/2023/day/12)|Hot Springs|⭐ ⭐|
 |[13](https://adventofcode.com/2023/day/13)|Point of Incidence|⭐ ⭐|
+|[14](https://adventofcode.com/2023/day/14)|Parabolic Reflector Dish|⭐ ⭐|
 
 ## 2022
 
