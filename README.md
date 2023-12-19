@@ -24,6 +24,7 @@ Solutions in Lua, Python, and ...?
 |[14](https://adventofcode.com/2023/day/14)|Parabolic Reflector Dish|⭐ ⭐|
 |[15](https://adventofcode.com/2023/day/15)|Lens Library|⭐ ⭐|
 |[16](https://adventofcode.com/2023/day/16)|The Floor Will Be Lava|⭐ ⭐|
+|[17](https://adventofcode.com/2023/day/17)|Clumsy Crucible|⭐ ⭐|
 
 ## 2022
 
