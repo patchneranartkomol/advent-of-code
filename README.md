@@ -25,6 +25,7 @@ Solutions in Lua, Python, and ...?
 |[15](https://adventofcode.com/2023/day/15)|Lens Library|⭐ ⭐|
 |[16](https://adventofcode.com/2023/day/16)|The Floor Will Be Lava|⭐ ⭐|
 |[17](https://adventofcode.com/2023/day/17)|Clumsy Crucible|⭐ ⭐|
+|[18](https://adventofcode.com/2023/day/18)|Lavaduct Lagoon|⭐ ⭐|
 
 ## 2022
 
