@@ -27,7 +27,7 @@ Solutions in Lua, Python, and ...?
 |[17](https://adventofcode.com/2023/day/17)|Clumsy Crucible|⭐ ⭐|
 |[18](https://adventofcode.com/2023/day/18)|Lavaduct Lagoon|⭐ ⭐|
 |[19](https://adventofcode.com/2023/day/19)|Aplenty|⭐ ⭐|
-|[20](https://adventofcode.com/2023/day/20)|Pulse Propagation|⭐|
+|[20](https://adventofcode.com/2023/day/20)|Pulse Propagation|⭐ ⭐|
 
 ## 2022
 

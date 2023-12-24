@@ -1,4 +1,6 @@
 from collections import defaultdict, deque
+from copy import deepcopy
+from math import lcm
 FILENAME = 'input.txt'
 
 
@@ -42,6 +44,47 @@ def part_one(module_map):
     return high * low
 
 
+def part_two(module_map):
+    button_count = 0
+    # Credit HyperNeutrino and /r/AdventOfCode for the LCM tip on Part 2
+    (feed,) = [m.name for m in module_map.values() if 'rx' in m.destinations]
+    cycles = {}
+    seen = {m.name: 0 for m in module_map.values() if feed in m.destinations}
+    messages = deque()
+    while True:
+        button_count += 1
+        messages.append(('button', 'low', 'broadcaster'))
+        while messages:
+            sender, pulse, curr = messages.popleft()
+            module = module_map[curr]
+            destinations = module.destinations
+
+            if module.name == feed and pulse == 'high':
+                seen[sender] += 1
+                if sender not in cycles:
+                    cycles[sender] = button_count
+
+                if all(seen.values()):
+                    return lcm(*cycles.values())
+
+            if module.type == 'broadcaster':
+                msg_type = pulse
+                for d in destinations:
+                    messages.append((module.name, msg_type, d))
+            elif module.type == '%':
+                if pulse == 'low':
+                    msg_type = 'high' if module.status == 0 else 'low'
+                    for d in destinations:
+                        messages.append((module.name, msg_type, d))
+                    module.status ^= 1
+            elif module.type == '&':
+                module.status[sender] = 0 if pulse == 'low' else 1
+                msg_type = 'low' if all(
+                    module.status.values()) == 1 else 'high'
+                for d in destinations:
+                    messages.append((module.name, msg_type, d))
+
+
 class Module:
     def __init__(self, name, _type, destinations):
         self.name = name
@@ -75,4 +118,5 @@ for m in modules:
         # Initialize all destinations to 0 for conjunction modules
         elif module_map[d].type == '&':
             module_map[d].status[m.name] = 0
-print(f'Part 1 - low * high pulses sent: {part_one(module_map)}')
+print(f'Part 1 - low * high pulses sent: {part_one(deepcopy(module_map))}')
+print(f'Part 2 - min button counts: {part_two(module_map)}')
