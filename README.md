@@ -28,6 +28,7 @@ Solutions in Lua, Python, and ...?
 |[18](https://adventofcode.com/2023/day/18)|Lavaduct Lagoon|⭐ ⭐|
 |[19](https://adventofcode.com/2023/day/19)|Aplenty|⭐ ⭐|
 |[20](https://adventofcode.com/2023/day/20)|Pulse Propagation|⭐ ⭐|
+|[21](https://adventofcode.com/2023/day/21)|Step Counter|⭐ ⭐|
 
 ## 2022
 
