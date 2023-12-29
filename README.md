@@ -30,6 +30,7 @@ Solutions in Lua, Python, and ...?
 |[20](https://adventofcode.com/2023/day/20)|Pulse Propagation|⭐ ⭐|
 |[21](https://adventofcode.com/2023/day/21)|Step Counter|⭐ ⭐|
 |[22](https://adventofcode.com/2023/day/22)|Sand Slabs|⭐ ⭐|
+|[23](https://adventofcode.com/2023/day/23)|A Long Walk|⭐ ⭐|
 
 ## 2022
 
