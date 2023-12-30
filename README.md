@@ -32,6 +32,7 @@ Solutions in Lua, Python, and ...?
 |[22](https://adventofcode.com/2023/day/22)|Sand Slabs|⭐ ⭐|
 |[23](https://adventofcode.com/2023/day/23)|A Long Walk|⭐ ⭐|
 |[24](https://adventofcode.com/2023/day/24)|Never Tell Me The Odds|⭐ ⭐|
+|[25](https://adventofcode.com/2023/day/25)|Snowverload|⭐ ⭐|
 
 ## 2022
 
