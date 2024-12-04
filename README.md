@@ -2,6 +2,12 @@
 
 My solutions for Advent of Code.
 
+## 2024
+
+|Day|Name|Status|
+|---|---|---|
+|[01](https://adventofcode.com/2024/day/1)|Historian Hysteria|⭐ ⭐|
+
 ## 2023
 
 Solutions in Lua, Python, and ...?
